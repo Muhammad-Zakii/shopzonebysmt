@@ -11,7 +11,15 @@ const AboutSection = () => {
                 About Us
               </h2>
               <p className="text-2xl md:text-3xl lg:text-4xl text-gray-600 text-shadow-md">
-              At Shopzonebysmt, we're more than just an online store. We're a team of dedicated individuals who are passionate about delivering high-quality products and exceptional service to our valued customers. Our mission is to provide you with a seamless shopping experience, offering a wide range of products to cater to your needs. We take pride in our commitment to quality, affordability, and customer satisfaction. Explore our collections and shop with confidence, knowing that you're in the hands of a trusted e-commerce destination.
+                At Shopzonebysmt, we're more than just an online store. We're a
+                team of dedicated individuals who are passionate about
+                delivering high-quality products and exceptional service to our
+                valued customers. Our mission is to provide you with a seamless
+                shopping experience, offering a wide range of products to cater
+                to your needs. We take pride in our commitment to quality,
+                affordability, and customer satisfaction. Explore our
+                collections and shop with confidence, knowing that you're in the
+                hands of a trusted e-commerce destination.
               </p>
             </div>
             <div>

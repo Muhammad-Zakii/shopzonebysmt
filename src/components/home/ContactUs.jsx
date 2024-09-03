@@ -1,16 +1,16 @@
-import React, { useState } from 'react';
-import api from '../../utils/https'; // Import the Axios instance
+import React, { useState } from "react";
+import api from "../../utils/https"; // Import the Axios instance
 
 const ContactUs = () => {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    message: '',
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
   });
 
   const [loading, setLoading] = useState(false);
-  const [successMessage, setSuccessMessage] = useState('');
+  const [successMessage, setSuccessMessage] = useState("");
   const [errors, setErrors] = useState({});
 
   const validateEmail = (email) => {
@@ -26,7 +26,7 @@ const ContactUs = () => {
     setFormData({ ...formData, [name]: value });
 
     // Clear the associated error when the input changes
-    setErrors((prevState) => ({ ...prevState, [name]: '' }));
+    setErrors((prevState) => ({ ...prevState, [name]: "" }));
   };
 
   const handleSubmit = async (e) => {
@@ -36,36 +36,42 @@ const ContactUs = () => {
 
     // Validation for the Name field (not empty)
     if (!formData.name) {
-      setErrors((prevState) => ({ ...prevState, name: 'Name is required' }));
+      setErrors((prevState) => ({ ...prevState, name: "Name is required" }));
       setLoading(false);
       return;
     }
 
     // Validation for the Email field (not empty and valid format)
     if (!formData.email) {
-      setErrors((prevState) => ({ ...prevState, email: 'Email is required' }));
+      setErrors((prevState) => ({ ...prevState, email: "Email is required" }));
       setLoading(false);
       return;
     } else if (!validateEmail(formData.email)) {
-      setErrors((prevState) => ({ ...prevState, email: 'Invalid email format' }));
+      setErrors((prevState) => ({
+        ...prevState,
+        email: "Invalid email format",
+      }));
       setLoading(false);
       return;
     }
 
     // Validation for the Message field (not empty)
     if (!formData.message) {
-      setErrors((prevState) => ({ ...prevState, message: 'Message is required' }));
+      setErrors((prevState) => ({
+        ...prevState,
+        message: "Message is required",
+      }));
       setLoading(false);
       return;
     }
 
     try {
-      await api.post('/send-email', formData);
-      setSuccessMessage('Message sent successfully!');
+      await api.post("/send-email", formData);
+      setSuccessMessage("Message sent successfully!");
     } catch (error) {
-      console.error('Failed to send the message:', error);
-      setSuccessMessage('');
-      setErrors({ message: 'Failed to send the message. Please try again.' });
+      console.error("Failed to send the message:", error);
+      setSuccessMessage("");
+      setErrors({ message: "Failed to send the message. Please try again." });
     } finally {
       setLoading(false);
     }
@@ -80,13 +86,20 @@ const ContactUs = () => {
               Contact Us
             </h2>
             <p className="text-2xl md:text-3xl lg:text-4xl text-gray-600 text-shadow-md">
-              Have questions, suggestions, or feedback? We'd love to hear from you. Send us a message using the form below.
+              Have questions, suggestions, or feedback? We'd love to hear from
+              you. Send us a message using the form below.
             </p>
           </div>
           <div>
-            <form className="bg-gray-900 rounded-[30px] shadow-lg p-6" onSubmit={handleSubmit}>
+            <form
+              className="bg-gray-900 rounded-[30px] shadow-lg p-6"
+              onSubmit={handleSubmit}
+            >
               <div className="mb-6">
-                <label htmlFor="name" className="block text-gray-100 font-semibold text-lg mb-2">
+                <label
+                  htmlFor="name"
+                  className="block text-gray-100 font-semibold text-lg mb-2"
+                >
                   Name
                 </label>
                 <input
@@ -96,10 +109,15 @@ const ContactUs = () => {
                   className="w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:border-blue-500"
                   onChange={handleInputChange}
                 />
-                {errors.name && <p className="text-red-500 mt-1">{errors.name}</p>}
+                {errors.name && (
+                  <p className="text-red-500 mt-1">{errors.name}</p>
+                )}
               </div>
               <div className="mb-6">
-                <label htmlFor="email" className="block text-gray-100 font-semibold text-lg mb-2">
+                <label
+                  htmlFor="email"
+                  className="block text-gray-100 font-semibold text-lg mb-2"
+                >
                   Email
                 </label>
                 <input
@@ -109,10 +127,15 @@ const ContactUs = () => {
                   className="w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:border-blue-500"
                   onChange={handleInputChange}
                 />
-                {errors.email && <p className="text-red-500 mt-1">{errors.email}</p>}
+                {errors.email && (
+                  <p className="text-red-500 mt-1">{errors.email}</p>
+                )}
               </div>
               <div className="mb-6">
-                <label htmlFor="phone" className="block text-gray-100 font-semibold text-lg mb-2">
+                <label
+                  htmlFor="phone"
+                  className="block text-gray-100 font-semibold text-lg mb-2"
+                >
                   Phone
                 </label>
                 <input
@@ -122,10 +145,15 @@ const ContactUs = () => {
                   className="w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:border-blue-500"
                   onChange={handleInputChange}
                 />
-                {errors.phone && <p className="text-red-500 mt-1">{errors.phone}</p>}
+                {errors.phone && (
+                  <p className="text-red-500 mt-1">{errors.phone}</p>
+                )}
               </div>
               <div className="mb-6">
-                <label htmlFor="message" className="block text-gray-100 font-semibold text-lg mb-2">
+                <label
+                  htmlFor="message"
+                  className="block text-gray-100 font-semibold text-lg mb-2"
+                >
                   Message
                 </label>
                 <textarea
@@ -135,16 +163,20 @@ const ContactUs = () => {
                   className="w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:border-blue-500"
                   onChange={handleInputChange}
                 ></textarea>
-                {errors.message && <p className="text-red-500 mt-1">{errors.message}</p>}
+                {errors.message && (
+                  <p className="text-red-500 mt-1">{errors.message}</p>
+                )}
               </div>
               <div className="text-center">
                 <button
                   className="bg-gray-600 text-white px-5 py-2 rounded-full font-semibold hover-bg-gray-800 transition-colors duration-300"
                   type="submit"
                 >
-                  {loading ? 'Sending...' : 'Send Message'}
+                  {loading ? "Sending..." : "Send Message"}
                 </button>
-                {successMessage && <p className="text-green-500 mt-2">{successMessage}</p>}
+                {successMessage && (
+                  <p className="text-green-500 mt-2">{successMessage}</p>
+                )}
               </div>
             </form>
           </div>
