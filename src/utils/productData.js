@@ -695,7 +695,8 @@ const data = [
     price: "£4.99",
     description: `Fresh Extreme, fights body odour with ultra absorbent Active Micro Captors to help combat wetness. Proven 48h* dry effect. Intense diffusion spray delivers active ingredients directly to the skin.`,
 
-    keyBenefits: [`The ultra wicking micro capsules of antiperspirant provide the long lasting dry effect
+    keyBenefits: [
+      `The ultra wicking micro capsules of antiperspirant provide the long lasting dry effect
 
     Deodorant for Men with ultra cooling effect – Is Ideal For A Fresh Scent on hot days
     
@@ -703,7 +704,8 @@ const data = [
     
     Anti-bacterial ingredients
     
-    Capacity: 50 ml`],
+    Capacity: 50 ml`,
+    ],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
@@ -762,7 +764,8 @@ const data = [
       "https://static.wixstatic.com/media/5efbd7_ce7f9cc196fe465b8943f219cfd7fc79~mv2.jpeg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/5efbd7_ce7f9cc196fe465b8943f219cfd7fc79~mv2.jpeg",
       // ... other images
     ],
-    heading: "Dove Antiperspirant Deodorant Invisible Dry Women Clean Touch 250ml",
+    heading:
+      "Dove Antiperspirant Deodorant Invisible Dry Women Clean Touch 250ml",
     price: "£2.99",
     description: `Dove Invisible Dry Anti-perspirant Aerosol 250 ml is the first proven anti-perspirant deodorant to leave no white marks on 100 colours of clothing.
 
@@ -805,18 +808,16 @@ const data = [
     description: `Built for hard ground surfaces including asphalt and concrete`,
 
     keyBenefits: [
-        "Training level ball",
-        "Built for hard ground surfaces including asphalt and concrete",
-        "32 Panel design",
-        "2 year fair wear guarantee",
-        "Just so you know, our balls are sent out and delivered deflated."
-    
+      "Training level ball",
+      "Built for hard ground surfaces including asphalt and concrete",
+      "32 Panel design",
+      "2 year fair wear guarantee",
+      "Just so you know, our balls are sent out and delivered deflated.",
     ],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
 
   {
     id: 35,
@@ -830,19 +831,15 @@ const data = [
     description: `Ideal for developing close control & Individual skills`,
 
     keyBenefits: [
-        "Made with a soft touch PVC outer making it light and durable",
-        "High air retention bladder means it doesn't require regular inflation",
-        "Ball requires inflation, so ensure you have a pump to hand.",
-        "Ideal for developing close control & Individual skills",
-      
-    
+      "Made with a soft touch PVC outer making it light and durable",
+      "High air retention bladder means it doesn't require regular inflation",
+      "Ball requires inflation, so ensure you have a pump to hand.",
+      "Ideal for developing close control & Individual skills",
     ],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
-  
 
   {
     id: 36,
@@ -856,18 +853,16 @@ const data = [
     description: `Introducing The Official Replica of the Emirates FA Cup 150th Anniversary final matchball`,
 
     keyBenefits: [
-        "Created to commemorate all the teams who have won over the last 150 years.",
-        "The Delta Replica FA is a high-performance training ball, developed to perform consistently during training. ",
-        "Featuring a foam back lining, to ensure maximum control, and so players can develop their confidence as they play.",
-        "It's been designed with durability in mind, and superb air-retention so it will withstand use for the full season.",
-        "Suitable for grass and astro. Available in various sizes, depending on age. "
-    
+      "Created to commemorate all the teams who have won over the last 150 years.",
+      "The Delta Replica FA is a high-performance training ball, developed to perform consistently during training. ",
+      "Featuring a foam back lining, to ensure maximum control, and so players can develop their confidence as they play.",
+      "It's been designed with durability in mind, and superb air-retention so it will withstand use for the full season.",
+      "Suitable for grass and astro. Available in various sizes, depending on age. ",
     ],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
 
   {
     id: 37,
@@ -880,16 +875,11 @@ const data = [
     price: "£4.99",
     description: `A powerful magnet designed to keep rigs in place on the Korda Tackle Box rig tray.`,
 
-    keyBenefits: [
-        "N/A",
-        
-    
-    ],
+    keyBenefits: ["N/A"],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
 
   {
     id: 38,
@@ -906,16 +896,11 @@ const data = [
 
     The perfect tool for any carp angler who is looking to capture those wiliest and most suspicious of carp, these Anti-Tangle Sleeves are ideal for use on clean gravel bottoms. With colours choices such as silt, weed, clay, or gravel you can pick the most suitable shade to perfectly camouflage into your swim. These Safe Zone Anti-Tangle sleeves were used to great effect in the filming of Korda’s Underwater 7 and 8 DVD and were particularly favoured by carp fishing legend Ali Hamidi. So, if you’d like to see these anti-tangle sleeves in action to see exactly how they could transform your carp fishing success you simply need to sit back and enjoy the thrills of the Korda Underwater DVD!`,
 
-    keyBenefits: [
-        "N/A",
-      
-    
-    ],
+    keyBenefits: ["N/A"],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
 
   {
     id: 39,
@@ -932,16 +917,11 @@ const data = [
 
     Korda Hook Safe is the ideal fishing tackle storage solution to keep your hooks in perfect condition. With a spacious interior that can store 67 individual hooks, this hook safe will hold sizes 2 - 8 until you need them most, at the bankside`,
 
-    keyBenefits: [
-        "N/A",
-      
-    
-    ],
+    keyBenefits: ["N/A"],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
 
   {
     id: 40,
@@ -962,15 +942,11 @@ const data = [
     
     The long, ultra-sharp and slightly in-turned beak of this Korda hook provides the most secure hook hold possible. Furthermore, it is less likely to be damaged by nuisance species, such as crayfish and small fish, which move it around on the bottom, especially when fishing over gravel.`,
 
-    keyBenefits: [
-        "N/A",
-        
-    ],
+    keyBenefits: ["N/A"],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
 
   {
     id: 41,
@@ -987,14 +963,11 @@ const data = [
 
     Korda has designed these lead clips so that they allow the lead to eject with ease should it become snagged during a battle with a fish. Korda suggests using a size 8 swivel as it fits snugly inside the clip making it one of the safest possible lead systems.`,
 
-    keyBenefits: [
-        "N/A",
-    ],
+    keyBenefits: ["N/A"],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
 
   {
     id: 42,
@@ -1015,15 +988,11 @@ const data = [
     
     There are three types of leader available: weedy green, gravel brown, clay and slit colours as well as clear. They are extremely robust too, with a 1m of length and a breaking strain of 30lb. These come as one per pack.`,
 
-    keyBenefits: [
-        "N/A",
-    ],
+    keyBenefits: ["N/A"],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
-
 
   {
     id: 43,
@@ -1036,15 +1005,11 @@ const data = [
     price: "£19.99",
     description: `The Slazenger V300 Soft Golf Balls have been engineered with a soft, responsive core with a durable Surlyn cover with a 352 dimple pattern for higher ball flight.`,
 
-    keyBenefits: [
-        "N/A",
-    ],
+    keyBenefits: ["N/A"],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
-
 
   {
     id: 44,
@@ -1057,15 +1022,11 @@ const data = [
     price: "£18.99",
     description: `The Srixon Marathon Distance Golf Balls are designed with a premium 2 piece construction featuring a highly resilient ionomer cover with a 432 dimple pattern with an Energetic Gradient Growth core for high velocity and greater distance.`,
 
-    keyBenefits: [
-        "N/A",  
-    ],
+    keyBenefits: ["N/A"],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
-
 
   {
     id: 45,
@@ -1079,20 +1040,17 @@ const data = [
     description: `The Sutton Swimwear SURF swimming goggle is made from a single moulded mount for added comfort and pre fitted with tinted, mirrored corrective lenses.`,
 
     keyBenefits: [
-        "to correct short sight",
-        "same power in each eye",
-        "fixed nose bridge",
-        "cpre-assembled",
-        "hard plastic case",
-        "pre-assembled"
-    
+      "to correct short sight",
+      "same power in each eye",
+      "fixed nose bridge",
+      "cpre-assembled",
+      "hard plastic case",
+      "pre-assembled",
     ],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
-
 
   {
     id: 46,
@@ -1105,15 +1063,11 @@ const data = [
     price: "£15.99",
     description: `The Wilson US Open tennis balls are made with premium Tex/Tech Industries felt and ensure optimal performance and durability on hard courts, as well as on clay/indoor courts. They feature a high altitude core for excellent performance on courts above 3500ft. The balls are supplied in a 4 ball can.`,
 
-    keyBenefits: [
-        "N/A",
-    
-    ],
+    keyBenefits: ["N/A"],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
 
   {
     id: 47,
@@ -1126,14 +1080,11 @@ const data = [
     price: "£14.99",
     description: `Made for intermediate and advanced players, the Dunlop Fort all court tournament select tennis ball is a premium choice eligible for tournament play, and an excellent practice ball for club players. The ball is extremely durable thanks to the HD Core technology, and it offers very good bounce and velocity combo. Also, it is fitting for types of playing surface, and it ensures a much softer feel and better control over each stroke. This pressurised ball features a good quality, excellent visibility felt, and it is approved by the International Tennis Federation. The ball is supplied in a tube of 4.`,
 
-    keyBenefits: [
-        "N/A",
-    ],
+    keyBenefits: ["N/A"],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
 
   {
     id: 48,
@@ -1154,14 +1105,11 @@ const data = [
     
     Free from cords and tubes, this Tommee Tippee Manual Breast Pump is the ultimate travel companion and is compact enough to fit in your handbag or changing bag. It’s extremely lightweight so it doesn’t weigh you down and has a discreet design that allows for quiet pumping at work, the café or at home while baby sleeps.`,
 
-    keyBenefits: [
-        "N/A",
-    ],
+    keyBenefits: ["N/A"],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
 
   {
     id: 49,
@@ -1191,15 +1139,11 @@ const data = [
     Memory function
     Stores nine memory readings, allowing you to monitor your baby’s temperature over a period of time with ease.`,
 
-    keyBenefits: [
-        "N/A",
-    ],
+    keyBenefits: ["N/A"],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
-
 
   {
     id: 50,
@@ -1228,14 +1172,11 @@ const data = [
     
     We recommend changing your bottle teats every two months. And you should change them immediately if they're damaged, weak or have been bitten by tiny teeth.`,
 
-    keyBenefits: [
-        "N/A",
-    ],
+    keyBenefits: ["N/A"],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
 
   {
     id: 51,
@@ -1253,17 +1194,16 @@ const data = [
     There's a solution for this and it's these practical versatile black kick mats which will protect your car seats from scuffs and dirt, keeping your car clean. They come with a straps to secure them over the headrest and has a handy pocket for organisation and storage of different items. These mats are very easy to clean with it's easy to clean material.`,
 
     keyBenefits: [
-        "2 pack of kick mats",
-        "Colour - Black",
-        "Protects car seats from scuffs",
-        "Handy organiser pocket ",
-        "Size (Width x Height): W-42cm x H-57cm",
+      "2 pack of kick mats",
+      "Colour - Black",
+      "Protects car seats from scuffs",
+      "Handy organiser pocket ",
+      "Size (Width x Height): W-42cm x H-57cm",
     ],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
 
   {
     id: 52,
@@ -1277,16 +1217,15 @@ const data = [
     description: `This fantastic folding changing mat is a fantastic item to have in your baby collection for it's practically and convenience.  The folding mat will make changing your baby so easy and comes with a netted pocket for extra storage for items you need such as nappies, baby wipes etc and it's a portable size which is perfect for when you need to change the baby on the go.  The folding changing mat is padded for the baby's comfort and it's lightweight and portable making it ideal to take it on the go when you're outdoors, in the car on holiday for example.`,
 
     keyBenefits: [
-        "Size - 46x66cm",
-        "Padded for comfort",
-        "Fits in most bags",
-        "Easy to clean"
+      "Size - 46x66cm",
+      "Padded for comfort",
+      "Fits in most bags",
+      "Easy to clean",
     ],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
 
   {
     id: 53,
@@ -1300,16 +1239,15 @@ const data = [
     description: `This super plush comfort blanket is a wonderful gift for a newborn baby as the softness of the comfort blanket will make baby feel calm and happy. Attached to the comfort blanket is a cute looking rabbit with embroidered features including soft long ears, eyes and mouth. This comfort blanket is irresistibly cute for baby's and is practical for parents as well. it's ideal for the little ones to hold to help them develop their hand eye coordination.  `,
 
     keyBenefits: [
-        "Filling - 100% polyester",
-        "Size 26x16cm approx",
-        "Suitable from birth",
-        "Little bunny label",
+      "Filling - 100% polyester",
+      "Size 26x16cm approx",
+      "Suitable from birth",
+      "Little bunny label",
     ],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
 
   {
     id: 54,
@@ -1330,9 +1268,7 @@ const data = [
     
     This would be a great addition to your baby accessory range as it's practical and allows for you to take your baby outdoors without being affected by the weather.`,
 
-    keyBenefits: [
-        "N/A",
-    ],
+    keyBenefits: ["N/A"],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
@@ -1359,9 +1295,7 @@ const data = [
     
     Ideal for entertaining your children during bath time`,
 
-    keyBenefits: [
-        "N/A",
-    ],
+    keyBenefits: ["N/A"],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
@@ -1392,9 +1326,7 @@ const data = [
     
     Learning Tools`,
 
-    keyBenefits: [
-        "N/A",
-    ],
+    keyBenefits: ["N/A"],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
@@ -1421,9 +1353,7 @@ const data = [
     
     Comfortable for little hands. `,
 
-    keyBenefits: [
-        "N/A",
-    ],
+    keyBenefits: ["N/A"],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
@@ -1452,9 +1382,7 @@ const data = [
     
     Comb with Fine Teeth`,
 
-    keyBenefits: [
-        "N/A",
-    ],
+    keyBenefits: ["N/A"],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
@@ -1485,14 +1413,11 @@ const data = [
     
     Machine washable at 30 degrees`,
 
-    keyBenefits: [
-        "N/A",
-    ],
+    keyBenefits: ["N/A"],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
 
   {
     id: 60,
@@ -1519,14 +1444,11 @@ const data = [
     
     Machine washable at 30 degrees`,
 
-    keyBenefits: [
-        "N/A",
-    ],
+    keyBenefits: ["N/A"],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
 
   {
     id: 61,
@@ -1544,9 +1466,7 @@ const data = [
     Use the LEGO Technic AR+ app to check out the challenges for more fun ways to play and explore all details of your muscle racing car model
     `,
 
-    keyBenefits: [
-        "N/A",
-    ],
+    keyBenefits: ["N/A"],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
@@ -1571,18 +1491,15 @@ const data = [
     `,
 
     keyBenefits: [
-        "Height: 262 MM",
-        "Width: 282 MM",
-        "Age Range: Child (5-8 years)",
-        "Warning Message: Warning: Not suitable for children under 3 years",
-
-
+      "Height: 262 MM",
+      "Width: 282 MM",
+      "Age Range: Child (5-8 years)",
+      "Warning Message: Warning: Not suitable for children under 3 years",
     ],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
 
   {
     id: 63,
@@ -1600,14 +1517,11 @@ const data = [
     Contains 468 pieces.
     `,
 
-    keyBenefits: [
-        "N/A",
-    ],
+    keyBenefits: ["N/A"],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
 
   {
     id: 64,
@@ -1622,18 +1536,16 @@ const data = [
     `,
 
     keyBenefits: [
-        "Features McLaren Senna toy racing car, a true racetrack icon's authentic replica and LEGO Technic version of McLaren’s show-stopping supercar",
-        "Ultimate speed. Supreme power. Breathtaking good looks. This collectable McLaren toy car features eye-catching graphics, colours & details",
-        "Check out the detailed V8 engine with moving pistons and dihedral doors that open ‘up and out' in the unmistakable style of the real McLaren",
-        "Build all the realistic features and beautiful design details, then display your car to attract admiring glances from everyone who passes",
-        "LEGO Technic model car building kits feature realistic movement and mechanisms that introduce young builders to the universe of engineering"
+      "Features McLaren Senna toy racing car, a true racetrack icon's authentic replica and LEGO Technic version of McLaren’s show-stopping supercar",
+      "Ultimate speed. Supreme power. Breathtaking good looks. This collectable McLaren toy car features eye-catching graphics, colours & details",
+      "Check out the detailed V8 engine with moving pistons and dihedral doors that open ‘up and out' in the unmistakable style of the real McLaren",
+      "Build all the realistic features and beautiful design details, then display your car to attract admiring glances from everyone who passes",
+      "LEGO Technic model car building kits feature realistic movement and mechanisms that introduce young builders to the universe of engineering",
     ],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
-
 
   {
     id: 65,
@@ -1658,22 +1570,21 @@ const data = [
     `,
 
     keyBenefits: [
-        "LEGO® recreation of the iconic 1970’s Lamborghini Countach – A replica model for kids and adults with a passion for innovative high-performance cars",
-        "What’s in the box? – This toy car construction set has everything you need to build a white Lamborghini Countach and includes a Lamborghini-branded driver with a crash helmet, wig and wrench",
-        "Collect, play and display – Build your very own Lamborghini Countach, show it off to friends and enjoy race action against other vehicles from the Speed Champions range",
-        "A gift for any occasion – This 262-piece LEGO® Speed Champions Lamborghini Countach (76908) playset can be given as a birthday or any-other-day gift for kids and car fans aged 8 and up",
-        "Iconic details – This Lamborghini Countach model comes with a 2-seat open cockpit and lots of authentic detailing and measures over 1.5 in. (4cm) high, 6 in. (15cm) long and 2.5 in. (7cm) wide",
-        "No batteries required – This cool Lamborghini Countach toy is powered by kids’ imaginations – so the racing action never stops!",
-        "Interactive digital building guide – Zoom, rotate and view this model from all angles as you build with the LEGO® Building Instructions app, available for smartphones and tablets",
-        "Exploring iconic design – LEGO® Speed Champions sets give kids and car fans the chance to explore some of the world’s best-known vehicles, with collectible models for play and display",
-        "A focus on quality – LEGO® components meet strict industry standards to ensure they’re consistent, compatible and fun to build with",
-        "Tested for safety – All LEGO® building toys are carefully tested to ensure every playset meets strict safety standards"
+      "LEGO® recreation of the iconic 1970’s Lamborghini Countach – A replica model for kids and adults with a passion for innovative high-performance cars",
+      "What’s in the box? – This toy car construction set has everything you need to build a white Lamborghini Countach and includes a Lamborghini-branded driver with a crash helmet, wig and wrench",
+      "Collect, play and display – Build your very own Lamborghini Countach, show it off to friends and enjoy race action against other vehicles from the Speed Champions range",
+      "A gift for any occasion – This 262-piece LEGO® Speed Champions Lamborghini Countach (76908) playset can be given as a birthday or any-other-day gift for kids and car fans aged 8 and up",
+      "Iconic details – This Lamborghini Countach model comes with a 2-seat open cockpit and lots of authentic detailing and measures over 1.5 in. (4cm) high, 6 in. (15cm) long and 2.5 in. (7cm) wide",
+      "No batteries required – This cool Lamborghini Countach toy is powered by kids’ imaginations – so the racing action never stops!",
+      "Interactive digital building guide – Zoom, rotate and view this model from all angles as you build with the LEGO® Building Instructions app, available for smartphones and tablets",
+      "Exploring iconic design – LEGO® Speed Champions sets give kids and car fans the chance to explore some of the world’s best-known vehicles, with collectible models for play and display",
+      "A focus on quality – LEGO® components meet strict industry standards to ensure they’re consistent, compatible and fun to build with",
+      "Tested for safety – All LEGO® building toys are carefully tested to ensure every playset meets strict safety standards",
     ],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
 
   {
     id: 66,
@@ -1692,19 +1603,18 @@ const data = [
     `,
 
     keyBenefits: [
-        "Features a 9 in. / 24 cm tall Iron Man figure - a realistic recreation of the metal-clad star of the Marvel Studios' Avengers movies.",
-        "All parts of the buildable Iron Man are articulated, so kids can move, position and pose the armour just like the real thing.",
-        "A button-operated Light Brick adds extra realism as it illuminates the arc reactor in Iron Man's chest.",
-        "The LEGO Marvel Iron Man model looks great on display and includes a removable information plate with details about the iconic armoured Avenger.",
-        "The LEGO Iron Man building toy lets kids can be like Tony Stark and build their own armoured action figure to build and display.",
-        "Give Iron Man and Marvel Avengers Infinity Saga fans aged 9 and up the ultimate gift: their own Iron Man action figure. Standing over 9 in. This take-anywhere Iron Man stands over 9 in. (24 cm) tall.",
-        "Includes 381 pieces."
+      "Features a 9 in. / 24 cm tall Iron Man figure - a realistic recreation of the metal-clad star of the Marvel Studios' Avengers movies.",
+      "All parts of the buildable Iron Man are articulated, so kids can move, position and pose the armour just like the real thing.",
+      "A button-operated Light Brick adds extra realism as it illuminates the arc reactor in Iron Man's chest.",
+      "The LEGO Marvel Iron Man model looks great on display and includes a removable information plate with details about the iconic armoured Avenger.",
+      "The LEGO Iron Man building toy lets kids can be like Tony Stark and build their own armoured action figure to build and display.",
+      "Give Iron Man and Marvel Avengers Infinity Saga fans aged 9 and up the ultimate gift: their own Iron Man action figure. Standing over 9 in. This take-anywhere Iron Man stands over 9 in. (24 cm) tall.",
+      "Includes 381 pieces.",
     ],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
 
   {
     id: 67,
@@ -1735,15 +1645,14 @@ const data = [
     `,
 
     keyBenefits: [
-        "Size H30.48cm.",
-        "For ages 4 years and over.",
-        "EAN: 5010993797806."
+      "Size H30.48cm.",
+      "For ages 4 years and over.",
+      "EAN: 5010993797806.",
     ],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
 
   {
     id: 68,
@@ -1776,16 +1685,14 @@ const data = [
     `,
 
     keyBenefits: [
-        "Size H30.48cm.",
-        "For ages 4 years and over",
-        "EAN: 5010993791538."
+      "Size H30.48cm.",
+      "For ages 4 years and over",
+      "EAN: 5010993791538.",
     ],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
-
 
   {
     id: 69,
@@ -1820,16 +1727,15 @@ const data = [
     `,
 
     keyBenefits: [
-        "Size H31.12cm.",
-        "For ages 3 years and over.",
-        "Manufacturer's 1 year guarantee.",
-        "EAN: 778988371671."
+      "Size H31.12cm.",
+      "For ages 3 years and over.",
+      "Manufacturer's 1 year guarantee.",
+      "EAN: 778988371671.",
     ],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
 
   {
     id: 70,
@@ -1860,15 +1766,14 @@ const data = [
     `,
 
     keyBenefits: [
-        "Size H30.5cm.",
-        "For ages 4 years and over.",
-        "EAN: 5010993789344."
+      "Size H30.5cm.",
+      "For ages 4 years and over.",
+      "EAN: 5010993789344.",
     ],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
 
   {
     id: 71,
@@ -1893,21 +1798,20 @@ const data = [
     `,
 
     keyBenefits: [
-        "Fast & Furious car toy – LEGO® Speed Champions 2 Fast 2 Furious Nissan Skyline GT-R (R34) model (76917) for kids, car enthusiasts and fans of the 2 Fast 2 Furious movie",
-        "1 minifigure – The street racer model comes with a Brian O’Conner minifigure for kids to place behind the wheel and recreate thrilling scenes from the famous movie franchise",
-        "Authentic details – The model includes details inspired by the real-life version: iconic stripes on the side, a wing at the back, a grille on the front and engine components on the passenger seat",
-        "Play-and-display LEGO® car – This Nissan Skyline model provides a fun build and can be shown off on display or used to stage racing action",
-        "Collectible LEGO® gift – This 319-piece Speed Champions model kit can be given as a birthday gift or unexpected treat to kids aged 9+, car enthusiasts and fans of the Fast & Furious movies",
-        "Portable size – The 2 Fast 2 Furious Nissan Skyline GT-R (R34) model measures over 2 in. (5 cm) high, 6.5 in. (16 cm) long and 2.5 in. (7 cm) wide and can be played with at home or taken on the go",
-        "Digital building experience – Kids can see their models come to life on their tablets or smartphones as they construct their model using the LEGO® Builder app",
-        "Premium quality – For more than 6 decades, LEGO® bricks have been made to ensure they pull apart consistently every time",
-        "Safety assurance – LEGO® building bricks meet stringent global safety standards"
+      "Fast & Furious car toy – LEGO® Speed Champions 2 Fast 2 Furious Nissan Skyline GT-R (R34) model (76917) for kids, car enthusiasts and fans of the 2 Fast 2 Furious movie",
+      "1 minifigure – The street racer model comes with a Brian O’Conner minifigure for kids to place behind the wheel and recreate thrilling scenes from the famous movie franchise",
+      "Authentic details – The model includes details inspired by the real-life version: iconic stripes on the side, a wing at the back, a grille on the front and engine components on the passenger seat",
+      "Play-and-display LEGO® car – This Nissan Skyline model provides a fun build and can be shown off on display or used to stage racing action",
+      "Collectible LEGO® gift – This 319-piece Speed Champions model kit can be given as a birthday gift or unexpected treat to kids aged 9+, car enthusiasts and fans of the Fast & Furious movies",
+      "Portable size – The 2 Fast 2 Furious Nissan Skyline GT-R (R34) model measures over 2 in. (5 cm) high, 6.5 in. (16 cm) long and 2.5 in. (7 cm) wide and can be played with at home or taken on the go",
+      "Digital building experience – Kids can see their models come to life on their tablets or smartphones as they construct their model using the LEGO® Builder app",
+      "Premium quality – For more than 6 decades, LEGO® bricks have been made to ensure they pull apart consistently every time",
+      "Safety assurance – LEGO® building bricks meet stringent global safety standards",
     ],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
 
   {
     id: 72,
@@ -1921,9 +1825,7 @@ const data = [
     description: `You'll have a chompin' good time with the classic hippo-feeding Hungry Hungry Hippos game! Hungry Hippo and his pals are ready to join in the feeding frenzy, and when you release all the marbles onto the game base, they’ll be chomping after them! You can be Hungry Hippo, Veggie Potamus, Sweetie Potamus or Bottomless Potamus. Whichever hippo you choose, you’ll have to move fast, because if your hippo chomps the most marbles, you win!
     `,
 
-    keyBenefits: [
-        "N/A",
-    ],
+    keyBenefits: ["N/A"],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
@@ -1959,9 +1861,7 @@ const data = [
     Suitable for ages 5+
     `,
 
-    keyBenefits: [
-        "N/A",
-    ],
+    keyBenefits: ["N/A"],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
@@ -1991,14 +1891,11 @@ const data = [
     For ages 6 years and over.
     `,
 
-    keyBenefits: [
-        "N/A",
-    ],
+    keyBenefits: ["N/A"],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
 
   {
     id: 75,
@@ -2020,14 +1917,11 @@ const data = [
     Please Note:These Foster's Pint Glasses are CE marked, which means they can be used in pubs.
     `,
 
-    keyBenefits: [
-        "N/A",
-    ],
+    keyBenefits: ["N/A"],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
 
   {
     id: 76,
@@ -2043,14 +1937,11 @@ const data = [
     Made from a fully toughened glass and complete with a CE Mark at 1 pint this glass is perfect for commercial use.
     `,
 
-    keyBenefits: [
-        "N/A",
-    ],
+    keyBenefits: ["N/A"],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
 
   {
     id: 77,
@@ -2064,14 +1955,11 @@ const data = [
     description: `Relax with your favourite beer and the stylish San Miguel Pint Glasses. These 20oz stemmed glasses are officially branded with the San Miguel logo and feature a frosted design on reverse. The nucleated base ensures your beer retains its head.
     `,
 
-    keyBenefits: [
-        "N/A",
-    ],
+    keyBenefits: ["N/A"],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
 
   {
     id: 78,
@@ -2088,14 +1976,11 @@ const data = [
     Suitable for use in commercial and domestic settings.
     `,
 
-    keyBenefits: [
-        "N/A",
-    ],
+    keyBenefits: ["N/A"],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
 
   {
     id: 79,
@@ -2113,14 +1998,11 @@ const data = [
     This glass holds 1 pint (20 fluid ounces / 568ml)
     `,
 
-    keyBenefits: [
-        "N/A",
-    ],
+    keyBenefits: ["N/A"],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
 
   {
     id: 80,
@@ -2138,14 +2020,11 @@ const data = [
     For use in commercial and domestic settings.
     `,
 
-    keyBenefits: [
-        "N/A",
-    ],
+    keyBenefits: ["N/A"],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
 
   {
     id: 81,
@@ -2166,14 +2045,11 @@ const data = [
     To clean, hand wash with warm soapy water and leave to dry.
     `,
 
-    keyBenefits: [
-        "N/A",
-    ],
+    keyBenefits: ["N/A"],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
 
   {
     id: 82,
@@ -2187,14 +2063,11 @@ const data = [
     description: `This handy knife set is a must have for any kitchen. Super-sharp blades make slicing and dicing quick and easy. The set includes a 9cm paring knife, 10cm serrated paring knife and 14cm utility knife. Ergonomic handles with soft grip for maximum comfort, control and ease of use. To clean, simply pop them in the dishwasher.
     `,
 
-    keyBenefits: [
-        "N/A",
-    ],
+    keyBenefits: ["N/A"],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
 
   {
     id: 83,
@@ -2208,9 +2081,7 @@ const data = [
     description: `This handy knife set is a must have for any kitchen. Super-sharp blades make slicing and dicing quick and easy. The set includes a 9cm paring knife and 9cm serrated paring knife. Ergonomic handles with soft grip for maximum comfort, control and ease of use. To clean, simply pop them in the dishwasher.
     `,
 
-    keyBenefits: [
-        "N/A",
-    ],
+    keyBenefits: ["N/A"],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
@@ -2228,14 +2099,11 @@ const data = [
     description: `Grace any feminine living space with this Picture Dial Alarm Clock in a choice of Butterfly or Floral designs. Clear white dial with bold numbers and luminous hands.
     `,
 
-    keyBenefits: [
-        "N/A",
-    ],
+    keyBenefits: ["N/A"],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
 
   {
     id: 85,
@@ -2253,14 +2121,11 @@ const data = [
     These are perfect for dinner parties or other occasions when 4 hours just isn’t long enough.
     `,
 
-    keyBenefits: [
-        "N/A",
-    ],
+    keyBenefits: ["N/A"],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
 
   {
     id: 86,
@@ -2274,14 +2139,11 @@ const data = [
     description: `Price’s pack of 5 wax household candles in white are perfect for regular use. Great value for money, these little dinner candles create a clean burn, which is smokeless and non-drip with no fragrance. Perfect for emergencies and everyday use.
     `,
 
-    keyBenefits: [
-        "N/A",
-    ],
+    keyBenefits: ["N/A"],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
 
   {
     id: 87,
@@ -2301,15 +2163,14 @@ const data = [
     `,
 
     keyBenefits: [
-        "    Type: FLY052",
-        "Cutting disc",
-        "Includes 2 Plastic blades",
+      "    Type: FLY052",
+      "Cutting disc",
+      "Includes 2 Plastic blades",
     ],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
 
   {
     id: 86,
@@ -2323,15 +2184,11 @@ const data = [
     description: `With double headband to support the back of the head and ear defenders. With enlarged visor and additional forehead protection. Meets EN 352, EN 1731, SNR 30.
     `,
 
-    keyBenefits: [
-        "N/A",
-    ],
+    keyBenefits: ["N/A"],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
-
 
   {
     id: 87,
@@ -2345,14 +2202,11 @@ const data = [
     description: `Full grain leather/textile. Provide great comfort, ergonomic design. Ideal for forestry & arborist work.
     `,
 
-    keyBenefits: [
-        "N/A",
-    ],
+    keyBenefits: ["N/A"],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
 
   {
     id: 87,
@@ -2366,9 +2220,7 @@ const data = [
     description: `STIHL ThermoGrip FUNCTION Cold Protection
     `,
 
-    keyBenefits: [
-        "N/A",
-    ],
+    keyBenefits: ["N/A"],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
@@ -2390,14 +2242,11 @@ const data = [
     Strong and easy to use fold-away saw with growth cutting capability of up to 65 mm and lightweight 160g design. The saw is perfect for anyone looking for an easy to store yet durable tool for cutting.
     `,
 
-    keyBenefits: [
-        "N/A",
-    ],
+    keyBenefits: ["N/A"],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
 
   {
     id: 89,
@@ -2418,21 +2267,20 @@ const data = [
     `,
 
     keyBenefits: [
-        "    Powder-Free Nitrile",
-        "Micro-textured finger tips",
-        "Medical Examination Grade",
-        "Non-Sterile",
-        "Beaded cuff",
-        "Ambidextrous",
-        "Latex Free",
-        "AQL 1.5",
-        "Pack of 100 Gloves",
+      "    Powder-Free Nitrile",
+      "Micro-textured finger tips",
+      "Medical Examination Grade",
+      "Non-Sterile",
+      "Beaded cuff",
+      "Ambidextrous",
+      "Latex Free",
+      "AQL 1.5",
+      "Pack of 100 Gloves",
     ],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
 
   {
     id: 90,
@@ -2453,22 +2301,20 @@ const data = [
     `,
 
     keyBenefits: [
-        "    Powder-Free Nitrile",
-        "Micro-textured finger tips",
-        "Medical Examination Grade",
-        "Non-Sterile",
-        "Beaded cuff",
-        "Ambidextrous",
-        "Latex Free",
-        "AQL 1.5",
-        "Pack of 100 Gloves",
+      "    Powder-Free Nitrile",
+      "Micro-textured finger tips",
+      "Medical Examination Grade",
+      "Non-Sterile",
+      "Beaded cuff",
+      "Ambidextrous",
+      "Latex Free",
+      "AQL 1.5",
+      "Pack of 100 Gloves",
     ],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
-
 
   {
     id: 91,
@@ -2489,21 +2335,20 @@ const data = [
     `,
 
     keyBenefits: [
-        "    Powder-Free Nitrile",
-        "Micro-textured finger tips",
-        "Medical Examination Grade",
-        "Non-Sterile",
-        "Beaded cuff",
-        "Ambidextrous",
-        "Latex Free",
-        "AQL 1.5",
-        "Pack of 100 Gloves",
+      "    Powder-Free Nitrile",
+      "Micro-textured finger tips",
+      "Medical Examination Grade",
+      "Non-Sterile",
+      "Beaded cuff",
+      "Ambidextrous",
+      "Latex Free",
+      "AQL 1.5",
+      "Pack of 100 Gloves",
     ],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
 
   {
     id: 92,
@@ -2535,14 +2380,11 @@ const data = [
     Colour: Clear
     `,
 
-    keyBenefits: [
-        "N/A",
-    ],
+    keyBenefits: ["N/A"],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
 
   {
     id: 93,
@@ -2572,9 +2414,7 @@ const data = [
     Includes 6 hooks and 8 small strips
     `,
 
-    keyBenefits: [
-        "N/A",
-    ],
+    keyBenefits: ["N/A"],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
@@ -2608,14 +2448,11 @@ const data = [
     Colour: White
     `,
 
-    keyBenefits: [
-        "N/A",
-    ],
+    keyBenefits: ["N/A"],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
 
   {
     id: 95,
@@ -2649,14 +2486,11 @@ const data = [
     EN14476 compliant
     `,
 
-    keyBenefits: [
-        "N/A",
-    ],
+    keyBenefits: ["N/A"],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
 
   {
     id: 96,
@@ -2686,9 +2520,7 @@ const data = [
     Keeping infection out of healthcare settings is essential, which is why the rigorous processes have been followed to clinically prove the effectiveness against viruses and bacteria.
     `,
 
-    keyBenefits: [
-        "N/A",
-    ],
+    keyBenefits: ["N/A"],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
@@ -2726,9 +2558,7 @@ const data = [
     It offers a superior level of effectiveness against germs and is fast acting, starting to work in just 10 seconds. The Clinell Sprays (Universal Range), to our knowledge, are the only brand of this type of disinfectant cleaner suitable for CPAP and non-invasive ventilator masks without causing them damage or risks to health.
     `,
 
-    keyBenefits: [
-        "N/A",
-    ],
+    keyBenefits: ["N/A"],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
@@ -2756,9 +2586,7 @@ const data = [
     The main feature of the Clinell Universal Spray 60ml is that they are clinically proven to kill at least 99.99% of pathogens after 10 seconds, norovirus within one minute and reduce instances of MRSA by 55%. They are even proven to kill the Covid-19 (SARS-CoV-2) virus in just 30 seconds.
     `,
 
-    keyBenefits: [
-        "N/A",
-    ],
+    keyBenefits: ["N/A"],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
@@ -2788,15 +2616,11 @@ const data = [
     Clinell wipes patented near-neutral pH formula ensures exceptional material compatibility and is proven to kill at least 99.99% of pathogens after 10 seconds, norovirus within one minute and reduce instances of MRSA by 55%.
     `,
 
-    keyBenefits: [
-        "N/A",
-    ],
+    keyBenefits: ["N/A"],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
-  
 
   {
     id: 100,
@@ -2811,15 +2635,15 @@ const data = [
     `,
 
     keyBenefits: [
-        "    Compact and light – ideal for travel",
-        "4 inch flexible air hose",
-        "3m power cord",
-        "PSI, BAR and KPA settings",
-        "Max pressure 80PSI",
-        "12V socket adaptor",
-        "Internal LED light",
-        "Easy to attach screw valve",
-        "Includes adaptors for inflatables, such as sport balls, air beds, etc",
+      "    Compact and light – ideal for travel",
+      "4 inch flexible air hose",
+      "3m power cord",
+      "PSI, BAR and KPA settings",
+      "Max pressure 80PSI",
+      "12V socket adaptor",
+      "Internal LED light",
+      "Easy to attach screw valve",
+      "Includes adaptors for inflatables, such as sport balls, air beds, etc",
     ],
     composition: `N/A`,
 
@@ -2839,9 +2663,9 @@ const data = [
     `,
 
     keyBenefits: [
-        "New abrasive technology for a mirror finish",
-        "Removes stubborn oxidation, stains, bird dropping blemishes and other sub-surface defects",
-        "Clear coat safe",
+      "New abrasive technology for a mirror finish",
+      "Removes stubborn oxidation, stains, bird dropping blemishes and other sub-surface defects",
+      "Clear coat safe",
     ],
     composition: `N/A`,
 
@@ -2861,12 +2685,12 @@ const data = [
     `,
 
     keyBenefits: [
-        "Hybrid carnauba/polymer wax protection",
-        "Incredible sudsing action safely lifts dirt and grime",
-        "Enhanced gloss and shine in one easy step",
-        "Clear coat safe surfactants gently clean the paint",
-        "pH neutral formula",
-        "Enhances gloss and shine while you wash",
+      "Hybrid carnauba/polymer wax protection",
+      "Incredible sudsing action safely lifts dirt and grime",
+      "Enhanced gloss and shine in one easy step",
+      "Clear coat safe surfactants gently clean the paint",
+      "pH neutral formula",
+      "Enhances gloss and shine while you wash",
     ],
     composition: `N/A`,
 
@@ -2886,12 +2710,12 @@ const data = [
     `,
 
     keyBenefits: [
-        "Soft and gentle lambs wool",
-        "Reduces the risk of scratching and is clear-coat safe",
-        "Ideal for sensitive finishes that mark easily",
-        "Lightweight and easy to use",
-        "Natural Lambs Wool product",
-        "Deep pile to keep grit & dirt away from the paint",
+      "Soft and gentle lambs wool",
+      "Reduces the risk of scratching and is clear-coat safe",
+      "Ideal for sensitive finishes that mark easily",
+      "Lightweight and easy to use",
+      "Natural Lambs Wool product",
+      "Deep pile to keep grit & dirt away from the paint",
     ],
     composition: `N/A`,
 
@@ -2917,11 +2741,11 @@ const data = [
     `,
 
     keyBenefits: [
-        "Machine washable",
-        "Swirl free washing",
-        "8 inch x 10 inch for great coverage",
-        "Absorbent microfiber carries more suds & water",
-        "Can be used with traditional car wash soap or dry with the Meguiar's® Quik Detailer® Mist and Wipe - A3316",
+      "Machine washable",
+      "Swirl free washing",
+      "8 inch x 10 inch for great coverage",
+      "Absorbent microfiber carries more suds & water",
+      "Can be used with traditional car wash soap or dry with the Meguiar's® Quik Detailer® Mist and Wipe - A3316",
     ],
     composition: `N/A`,
 
@@ -2941,17 +2765,16 @@ const data = [
     `,
 
     keyBenefits: [
-        "Made from synthetic polyurethane foam",
-        "Highly absorbent",
-        "Easy foaming",
-        "Leaves bodywork streak and scratch free",
-        "Sponge Size: H 4.5cm x W 10.5cm x L 18cm (approx)",
+      "Made from synthetic polyurethane foam",
+      "Highly absorbent",
+      "Easy foaming",
+      "Leaves bodywork streak and scratch free",
+      "Sponge Size: H 4.5cm x W 10.5cm x L 18cm (approx)",
     ],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
 
   {
     id: 106,
@@ -2966,10 +2789,10 @@ const data = [
     `,
 
     keyBenefits: [
-        "Brush cleans in between spokes effortlessly",
-        "Removes brake dust, dirt and and other muck quickly",
-        "Special non-scratch bristles allow pressure to be applied without marking",
-        "Suitable for use with soaps and shampoos",
+      "Brush cleans in between spokes effortlessly",
+      "Removes brake dust, dirt and and other muck quickly",
+      "Special non-scratch bristles allow pressure to be applied without marking",
+      "Suitable for use with soaps and shampoos",
     ],
     composition: `N/A`,
 
@@ -2989,19 +2812,15 @@ const data = [
     `,
 
     keyBenefits: [
-        "Removes light scratches quickly and easily",
-        "Suitable for use on any colour of paintwork",
-        "Leaves a professional water resistant finish",
-        "Not suitable for deep scratches",
+      "Removes light scratches quickly and easily",
+      "Suitable for use on any colour of paintwork",
+      "Leaves a professional water resistant finish",
+      "Not suitable for deep scratches",
     ],
     composition: `N/A`,
 
     nutritionalInfo: "N/A",
   },
-
-
-
-
 ];
 
 export default data;

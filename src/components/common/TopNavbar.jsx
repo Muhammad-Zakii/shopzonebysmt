@@ -1,5 +1,5 @@
-import React from 'react';
-import { FaPhone, FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
+import React from "react";
+import { FaPhone, FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 
 const TopNavbar = () => {
   return (
