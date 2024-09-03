@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Class for the Large Banner Hover Effect */
+.banner-content {
+  position: relative;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.banner-content:hover {
+  transform: scale(1);
+  opacity: 1;
+}
+
+/* Custom Class for the Vertical Banners Hover Effect */
+.vertical-banner {
+  position: relative;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.vertical-banner:hover {
+  transform: scale(1.05);
+  opacity: 1;
+}
+
+/* Efficient Hover Effect for Transparency and Scale */
+.banner-content:hover .group-hover-bg {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.vertical-banner:hover .group-hover-bg {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.text-shadow-lg {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.text-shadow-md {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.image-carousel {
+  /* This class styles the entire image carousel container. */
+  position: relative;
+}
+
+.image-carousel-container {
+  /* This class is responsible for containing the image slides and creating the sliding effect. */
+  overflow: hidden; /* Hides overflowing content */
+  width: 100%; /* Takes up the full width of its parent container */
+  height: 24rem; /* You can adjust the height as needed */
+  position: relative;
+}
+
+.image-carousel-slide {
+  /* This class represents each individual image slide within the carousel. */
+  position: absolute;
+  inset: 0; /* Positions the slide to cover the entire container */
+  transition: transform 0.3s ease-in-out; /* Adds a smooth sliding transition */
+  transform: translateX(100%); /* Initially moves slides to the right (out of view) */
+}
+
+.image-carousel-slide.translate-x-0 {
+  /* When an image is the active slide, this class moves it into view (no translation). */
+  transform: translateX(0);
+}
+
+.carousel-button {
+  /* These classes style the previous and next navigation buttons. */
+  position: absolute; /* Positions the buttons within the carousel container */
+  background-color: rgba(0, 0, 0, 0.5); /* Adds a semi-transparent background color */
+  color: white; /* Sets the text color to white */
+  border: none; /* Removes button borders */
+  padding: 10px 20px; /* Adds some padding to the buttons */
+  border-radius: 5px; /* Rounds the button corners */
+  cursor: pointer; /* Displays a pointer cursor on hover */
+}
+
+.carousel-button.prev {
+  /* Styles for the "Previous" button */
+  left: 4rem; /* Positions the button to the left */
+}
+
+.carousel-button.next {
+  /* Styles for the "Next" button */
+  right: 4rem; /* Positions the button to the right */
+}
